@@ -18,6 +18,9 @@ The following R libraries are required to perform the analysis.
 * [igraph, see https://cran.r-project.org/web/packages/igraph/index.html] with the command:
 <pre><code>if (!require("igraph")) install.packages("igraph")</code></pre>
 
+* [pracma, see https://cran.r-project.org/web/packages/pracma/index.html] with the command:
+<pre><code>if (!require("pracma")) install.packages("pracma")</code></pre>
+
 * [Rmpfr, see https://cran.r-project.org/web/packages/Rmpfr/index.html] with the command:
 <pre><code>if (!require("Rmpfr")) install.packages("Rmpfr")</code></pre>
 
@@ -35,5 +38,7 @@ The R scripts can be executed either by R GUI or from terminal, with the followi
 	Rscript 2_extract_relations.R
 
 	Rscript 3_survival_lasso_analysis.R
+
+	Rscript 4_KM_estimate.R
 
 Please feel free to contact us if you have problems running our scripts at daniele.ramazzotti1@gmail.com 
