@@ -1,44 +1,6 @@
-This repository provides all the code to replicate the PMCE analysis. 
+PMCE: efficient inference of expressive models of cancer evolution with high prognostic power
+===============================
 
-# REQUIREMENTS
-The following R libraries are required to perform the analysis.
+In this repository we provide the code for the inference of Hidden Extended Suppes-Bayes Causal Networks (H-ESBCNs) in the directory named "HESBCN" and the scripts to replicate the PMCE analysis (directory named Utilities).
 
-* [glmnet, see https://cran.r-project.org/web/packages/glmnet/index.html] with the command:
-<pre><code>if (!require("glmnet")) install.packages("glmnet")</code></pre>
-
-* [ggplot2, see https://cran.r-project.org/web/packages/ggplot2/index.html] with the command:
-<pre><code>if (!require("ggplot2")) install.packages("ggplot2")</code></pre>
-
-* [gtools, see https://cran.r-project.org/web/packages/gtools/index.html] with the command:
-<pre><code>if (!require("gtools")) install.packages("gtools")</code></pre>
-
-* [gridExtra, see https://cran.r-project.org/web/packages/gridExtra/index.html] with the command:
-<pre><code>if (!require("gridExtra")) install.packages("gridExtra")</code></pre>
-
-* [igraph, see https://cran.r-project.org/web/packages/igraph/index.html] with the command:
-<pre><code>if (!require("igraph")) install.packages("igraph")</code></pre>
-
-* [pracma, see https://cran.r-project.org/web/packages/pracma/index.html] with the command:
-<pre><code>if (!require("pracma")) install.packages("pracma")</code></pre>
-
-* [Rmpfr, see https://cran.r-project.org/web/packages/Rmpfr/index.html] with the command:
-<pre><code>if (!require("Rmpfr")) install.packages("Rmpfr")</code></pre>
-
-* [survival, see https://cran.r-project.org/web/packages/survival/index.html] with the command:
-<pre><code>if (!require("survival")) install.packages("survival")</code></pre>
-
-* [survminer, see https://cran.r-project.org/web/packages/survminer/index.html] with the command:
-<pre><code>if (!require("survminer")) install.packages("survminer")</code></pre>
-
-# RUNNING
-The R scripts can be executed either by R GUI or from terminal, with the following commands: 
-
-	Rscript 1_data_processing.R
-
-	Rscript 2_extract_relations.R
-
-	Rscript 3_survival_lasso_analysis.R
-
-	Rscript 4_KM_estimate.R
-
-Please feel free to contact us if you have problems running our scripts at daniele.ramazzotti1@gmail.com 
+Please feel free to contact us if you have problems running our tool at daniele.ramazzotti@unimib.it or alex.graudenzi@ibfm.cnr.it.
