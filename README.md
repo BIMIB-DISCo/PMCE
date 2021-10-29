@@ -1,6 +1,3 @@
-![Graphical abstract](/images/graphical_abstract.jpg)
-
-
 PMCE: efficient inference of expressive models of cancer evolution with high prognostic power
 ===============================
 
@@ -10,3 +7,5 @@ For the theoretical and methodological details, please refer to: Fabrizio Angaro
 
 
 Please feel free to contact us if you have problems running our tool at daniele.ramazzotti@unimib.it or alex.graudenzi@ibfm.cnr.it.
+
+![Graphical abstract](/images/graphical_abstract.jpg)
