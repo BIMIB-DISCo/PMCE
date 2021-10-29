@@ -1,4 +1,4 @@
-![Graphical abstract](/images/graphical_abstract.pdf)
+![Graphical abstract](/images/graphical_abstract.jpg)
 
 
 PMCE: efficient inference of expressive models of cancer evolution with high prognostic power
