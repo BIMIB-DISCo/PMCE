@@ -41,4 +41,4 @@ The R scripts can be executed either by R GUI or from terminal, with the followi
 
 	Rscript 4_KM_estimate.R
 
-Please feel free to contact us if you have problems running our scripts at daniele.ramazzotti1@gmail.com 
+Please feel free to contact us if you have problems running our tool at daniele.ramazzotti@unimib.it
