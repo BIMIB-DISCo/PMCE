@@ -36,3 +36,5 @@ To account for model changes, we move precompute "parent lift" arrays and store 
 We resolve deadlock by using the parent lifts to modify the expectation computation and a designated "locked_out" function to test for lockout. Multiple end states are accounted for through genetic completion, and by considering only genotypes with events present into each event's expectation. 
 
 We also use the "is_after" function to determine whether two genotypes lie on the same lineage path, and if so, which comes first. This is integral to proper lineage comparisons. 
+
+Please feel free to contact us if you have problems running our tool at daniele.ramazzotti@unimib.it 
