@@ -6,6 +6,6 @@ In this repository we provide the code for the inference of Hidden Extended Supp
 For the theoretical and methodological details, please refer to: Fabrizio Angaroni, Kevin Chen, Chiara Damiani, Giulio Caravagna, Alex Graudenzi, Daniele Ramazotti, PMCE: efficient inference of expressive models of cancer evolution with high prognostic power, Bioinformatics, 2021;, btab717, https://doi.org/10.1093/bioinformatics/btab717
 
 
-Please feel free to contact us if you have problems running our tool at daniele.ramazzotti@unimib.it or alex.graudenzi@ibfm.cnr.it.
+Please feel free to contact us if you have problems running our tool at alex.graudenzi@ibfm.cnr.it and daniele.ramazzotti@unimib.it.
 
 ![Graphical abstract](/images/graphical_abstract.jpg)
